@@ -1055,8 +1055,6 @@ var PACMAN = (function () {
         map.draw(ctx);
         dialog("Loading ...");
 
-        var extension = Modernizr.audio.ogg ? 'ogg' : 'mp3';
-
         var audio_files = [
             ["start", root + "audio/opening_song." + extension],
             ["die", root + "audio/die." + extension],
